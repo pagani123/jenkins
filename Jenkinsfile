@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        sleep(unit: 'MINUTES', time: 1)
+        echo 'hi i am here'
       }
     }
 
