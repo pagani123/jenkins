@@ -11,6 +11,7 @@ pipeline {
     stage('bees bees') {
       steps {
         echo 'bee'
+        echo 'niko'
       }
     }
 
